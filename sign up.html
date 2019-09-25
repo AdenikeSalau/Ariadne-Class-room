@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>Sign Up form</title>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+
+<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="https://res.cloudinary.com/enema/image/upload/v1567243825/schoolchildren-in-botswana-1_eaylcm.jpg" alt="Avatar" class="avatar" height="100" width="50">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <div class="coursegroup">
+    <select name="subjects" class="subjects" required>
+            <option value="">--Please choose a class--</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Data Science">Data Science</option>
+            <option value="AI">Artificial Intelligence</option>
+            <option value="Machine Learning">Machine Learning</option>
+            <option value="Oracle DataBase">Oracle DataBase</option>
+            <option value="Cisco Networking">Cisco Networking</option>
+            <option value="RedHat Linux">RedHat Linux</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+            <option value="Microsoft">Microsoft System Administration</option>
+          </select>
+
+    <button type="submit">Sign Up</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+
+
+
+
+</body>
+</html>
